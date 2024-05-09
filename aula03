@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula  03</title>
+
+    <style>
+        header{
+            background-color: #ac0a0a;
+            height: 70px;
+            width: 100%;
+            display: inline-block;
+
+        }
+        div{
+            width:40%;
+            display: inline-block;
+            color: rgb(255, 255, 255);
+        }
+        nav{
+            width:50%;
+            display: inline-block;
+        }
+        ul{
+            display: inline-block;
+            width:90%;
+            text-align: end;
+        }
+        li{
+            display: inline;
+            width:1%;
+        }
+        section{
+            height: 200px;
+            width: 100%;
+            display: inline-block;
+        }
+        span{
+            height: 200px;
+            width: 50%;
+            display: inline-block;
+            text-align: center;
+            color:rgb(104, 104, 104);
+            margin-top: 8%;
+            position: relative;
+            left: 45px;
+            bottom: 100px;
+        }
+        figure{
+            height: 200px;
+            width: 30%;
+            display: inline-block;
+            text-align: center; 
+        }
+        img{
+            width: 450px;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header> 
+        <div>Logo</div> 
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Categorias</li>
+                <li>Galeria</li>
+            </ul>
+        </nav>
+    </header>
+<section> 
+   <figure>
+        <img src="https://www.opovo.com.br/_midias/jpg/2023/12/19/750x500/1_axolote_minecraft_mexico_extincao-24677221.jpg">
+   </figure>
+    <span>
+        <p>
+             ipsum dolor sit amet consectetur adipisicing elit. Quaerat quia est maiores tempora voluptas, corporis exercitationem aut, ipsum ducimus repellat ipsam cumque ipsa laborum quidem dolorum reiciendis distinctio eligendi dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore at deserunt est ipsam nostrum laborum cumque ipsa. Recusandae cumque magnam laudantium debitis obcaecati, impedit, fugiat nisi soluta facere, voluptatibus nam?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, libero vitae, architecto tenetur alias nisi adipisci impedit quis possimus cumque reprehenderit sequi in accusantium corporis, totam at. Recusandae, perspiciatis obcaecati.
+        </p>
+    </span>
+</section>
+</body>
+</html>
